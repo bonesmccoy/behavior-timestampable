@@ -1,6 +1,6 @@
 <?php
 
-namespace Bones\Behaviour\Timestampable\Listener\Entity;
+namespace Bones\Behaviour\Timestampable\Listener;
 
 use Doctrine\Common\EventSubscriber;
 use Doctrine\ORM\Event\LifecycleEventArgs;
