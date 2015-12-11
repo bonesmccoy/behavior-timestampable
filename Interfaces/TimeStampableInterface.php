@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Bones\Behaviour\Timestampable\Interface;
+namespace Bones\Behaviour\Timestampable\Interfaces;
 
 
 interface TimeStampableInterface
