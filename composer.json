@@ -1,0 +1,19 @@
+{
+    "name": "bonesmccoy/behavior-timestampable",
+    "type": "symfony-bundle",
+    "description": "bones timestampable behaviour",
+    "keywords": ["timestamp entities"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniele Murroni",
+            "email": "daniele.murroni@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "doctrine/orm": "^2.4.8"
+    },
+    "autoload": {
+        "psr-4": { "Bones\\Behaviour\\Timestampable": "" }
+    }
+}
