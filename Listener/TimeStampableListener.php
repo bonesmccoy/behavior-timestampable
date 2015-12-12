@@ -2,6 +2,7 @@
 
 namespace Bones\Behaviour\Timestampable\Listener;
 
+use Bones\Behaviour\Timestampable\Interfaces\TimeStampableInterface;
 use Doctrine\Common\EventSubscriber;
 use Doctrine\ORM\Event\LifecycleEventArgs;
 use Doctrine\ORM\Events;
@@ -27,6 +28,9 @@ class TimeStampableListener implements EventSubscriber
         }
     }
 
+    /**
+     * @param LifecycleEventArgs $args
+     */
     public function preUpdate(LifecycleEventArgs $args)
     {
         $entity = $args->getEntity();
